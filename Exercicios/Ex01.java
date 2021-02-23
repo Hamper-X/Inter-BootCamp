@@ -36,7 +36,7 @@ class Carro{
 
     
 }
-public class Main{
+public class Ex01{
     public static void main(String [] args){
         int control = 1;
         Scanner sc = new Scanner(System.in);
