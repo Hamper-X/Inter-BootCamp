@@ -19,7 +19,7 @@ public class Ex06{
         String nowStr2 = DateFormat.getDateTimeInstance(DateFormat.LONG,DateFormat.SHORT).format(now);
         System.out.println(nowStr2);
 
-        SimpleDateFormat form = new SimpleDateFormat("dd/MM/yyyy HH:MM:SS:MMM");
+        SimpleDateFormat form = new SimpleDateFormat("dd/MM/yyyy hh:mm:ss:mmm");
         String nowStr3 = form.format(now);
         System.out.println(nowStr3);
 
